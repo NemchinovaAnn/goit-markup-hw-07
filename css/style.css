@@ -50,7 +50,7 @@ margin: 0 auto;
 .header-container{
     display: flex;
     align-items: center;
-} */
+}  */
 
 /* .header-logo{
     font-family: "Raleway";
@@ -132,7 +132,7 @@ margin: 0 auto;
 .adres-social-link :hover.header-tel,
 .adres-social-link :focus.header-tel{
     color: var(--accent-color);
-} */
+}
 /* --------ОСНОВНОЙ КОНТЕНТ------- */   
 /* .hero{
     padding-top: 195px;

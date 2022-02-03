@@ -1,7 +1,7 @@
 .make{
     padding-bottom: 94px;
 }
-.make-title{
+.make__title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -14,20 +14,20 @@
     display: flex;
     
 }
-.make-image{
+.make-list__image{
     margin: -15px;
     margin-bottom: -30px;
     
 }
-.make-image{
+.make-list__image{
     width: calc(100% / 3 - 30px);
     margin: 15px;
     margin-bottom: 30px;
 }
-.make-animation{
+.make-list__animation{
     position: relative;
 }
-.make-text{
+.make-list__text{
     position: absolute;
     bottom: 0;
     left: 0;

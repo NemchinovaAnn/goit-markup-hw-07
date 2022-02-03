@@ -3,7 +3,7 @@
     padding-top: 94px ;
     padding-bottom: 94px;
 }
-.team-title{
+.team__title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -15,11 +15,11 @@
 .team-list{
     display: flex;
 }
-.team-item{
+.team-list__item{
     margin: -15px;
     margin-bottom: -30px;
 }
-.team-item{
+.team-list__item{
     width: calc(100% / 4 - 30px);
     margin: 15px;
     margin-bottom: 30px;
@@ -28,10 +28,10 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.team-box{
+.team-list__box{
     padding: 30px 0;
 }
-.team-subtitle{
+.team-list__subtitle{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -39,7 +39,7 @@
     color: var(--ferst-btn-color);
     margin-bottom: 10px;
 }
-.team-text{
+.team-list__text{
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
@@ -47,19 +47,18 @@
     color: var(--header-color);
     margin-bottom: 16px;
 }
-.team-social-list{
+.team-contact-list{
     display: flex;
     justify-content: center;
 }
-.team-social-item {
-    & + &{
-        margin-left: 10px;
-    }  
-    &:hover &:focus{
+.team-contact-list__item {
+    margin-left: 10px;
+    & :hover,
+    &:focus{
         background-color:#2196F3;
     }
 }
-.team-social-link{
+.team-contact-list__link{
     width: 44px;
     height: 44px;
     display: block;
@@ -70,11 +69,11 @@
     padding: 10px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1 );
 }
-.team-social-icon{
+.team-contact-list__icon{
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1 );
-    .team-social-item:hover &,
-    .team-social-item:focus &{
+    .team-contact-list__item:hover &,
+    .team-contact-list__item:focus &{
     fill:#FFFFFF;
 }
 }

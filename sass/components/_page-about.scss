@@ -1,7 +1,7 @@
 .about{
     padding-bottom: 110px;
 }
-.about-title-hidden{
+.about__title-hidden{
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -16,10 +16,10 @@
 .about-list{
     display: flex;
 }
-.about-item{
+.about-list__item{
     margin-right: 30px;
 }
-.about-container{
+.about-list__container{
     width: 270px;
     height: 120px;
     left: 815px;
@@ -30,7 +30,7 @@
     text-align: center;
     padding: 25px 100px;
 }
-.about-title-list{
+.about-list__title{
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -39,7 +39,7 @@
     color: var(--ferst-btn-color);
     margin-bottom: 10px;
 }
-.about-text{
+.about-list__text{
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
