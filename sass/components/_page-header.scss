@@ -52,7 +52,7 @@
         bottom: -32px;
     }
 }
-.header__contact{
+.header-contact{
     color: var(--header-color);
     margin-right: 50px;
     font-size: 14px;
@@ -81,8 +81,8 @@
 .adres-list :focus .adres-list__link{
     fill: var(--accent-color);
 }
-.adres-list__link :hover.header__contact,
-.adres-list__link :focus.header__contact{
+.adres-list__link :hover.header-contact,
+.adres-list__link :focus.header-contact{
     color: var(--accent-color);
 }
 .header-portfolio{
